@@ -24,6 +24,9 @@
 }
 
 /* header */
+header{
+    padding-top: 1rem;
+}
 .container{
     max-width: 60%;
     margin: 0 auto;
