@@ -1,0 +1,47 @@
+/* start-up */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fredoka', sans-serif;
+}
+/* utility */
+:root{
+    --img-back: #0F0E17;
+    --email: #19ADDB;
+    --title: #E53170;
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.debug{
+    border: 1px solid black;
+}
+.align{
+    text-align: center;
+}
+
+/* header */
+.container{
+    max-width: 60%;
+    margin: 0 auto;
+}
+h1{
+    color: var(--title);
+}
+/* main */
+.single-person{
+    background-color: var(--img-back);
+    height: 100px;
+
+}
+.pad{
+    padding: 15px 15px;
+}
+.person-wrap{
+    width: calc(100% / 3);
+    float: left;
+
+}
