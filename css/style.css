@@ -47,6 +47,7 @@ h1{
 .person-wrap{
     width: calc(100% / 3);
     float: left;
+    min-width: 340px;
 }
 
 .single-person > img{
